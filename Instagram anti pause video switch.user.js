@@ -10,13 +10,9 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
-
-(function() {
    'use strict';
    window.addEventListener("visibilitychange", function(event) {
           event.stopImmediatePropagation();
    }, true);
 
-})();
 })();
